@@ -27,7 +27,7 @@ It is an alias. Let's see what it points to, and go into that directory.
 
 ```
 § resolve foo
-/Users/alice/foo/
+/Users/alice/Documents/bar
 
 § cd $(resolve foo)
 
