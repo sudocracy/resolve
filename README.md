@@ -35,4 +35,15 @@ It is an alias. Let's see what it points to, and go into that directory.
 /Users/alice/Documents/bar
 ```
 
+## Installation
+
+This assumes that the `/usr/local/bin` path exists and is in path:
+
+```
+curl 'https://raw.githubusercontent.com/sudocracy/resolve/refs/heads/main/resolve-osx-alias.osa.js' \
+      --output /usr/local/bin/resolve-osx-alias.osa.js
+chmod +x  /usr/local/bin/resolve-osx-alias.osa.js
+ln -s /usr/local/bin/resolve-osx-alias.osa.js resolve
+```
+
 [1]: https://man.freebsd.org/cgi/man.cgi?realpath(1)
